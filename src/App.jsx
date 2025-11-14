@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, Mic, MicOff, Bot, User, Loader, Volume2, VolumeX, Eye, Languages, Accessibility, Play, ExternalLink, Image as ImageIcon, Video as VideoIcon } from 'lucide-react';
 
-const API_BASE_URL = 'http://127.0.0.1:8000/api';
+const API_BASE_URL = 'https://multiagentsystem-mmve.onrender.com/';
 
 function WhatsAppChatbot() {
   const [messages, setMessages] = useState([]);
